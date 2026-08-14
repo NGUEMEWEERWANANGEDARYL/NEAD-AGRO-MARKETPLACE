@@ -1,0 +1,7 @@
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=nead_agro
+POSTGRES_USER=zNzmubBGckSGSrBcqmiDtCMIceTLCFut
+POSTGRES_PASSWORD=A0VqXH3oI8kBbH7jMIHFYjrxvI2fQ0uWKw4S5Rt6dQ9hjVTC7mKbsbMmt2wgxxnf
