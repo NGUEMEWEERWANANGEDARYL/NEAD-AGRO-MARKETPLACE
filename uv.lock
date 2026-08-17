@@ -604,15 +604,15 @@ wheels = [
 
 [[package]]
 name = "django-debug-toolbar"
-version = "7.1.0"
+version = "7.1.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "django" },
     { name = "sqlparse" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f9/53/ed6f028efe4044931d86cf7fdadb52d1a0addd8314ed35b5761e5fb597e7/django_debug_toolbar-7.1.0.tar.gz", hash = "sha256:d9c64faaaf171c1fb485bd0ef855e31809c21ddf032202545efd255701e29782", size = 363278, upload-time = "2026-08-10T15:22:42.227Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/00/da/df67a8e407ab6141affee4ee5cb2704403b9d5465cc35abbb42f5190a3fa/django_debug_toolbar-7.1.1.tar.gz", hash = "sha256:2fb4093d95e6f87258606c55f4d2aa45d1847b17a415525a9dceac02e937a836", size = 363531, upload-time = "2026-08-14T13:18:47.219Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/2d/35/5f22dafc8f0c44c215872cd06c9daef5c856674b6e1c7e582de49c19a796/django_debug_toolbar-7.1.0-py3-none-any.whl", hash = "sha256:814be55805f77b04b1a94395049c80fb7e08f95c6e8d070256c9ed8fd0295084", size = 304247, upload-time = "2026-08-10T15:22:40.842Z" },
+    { url = "https://files.pythonhosted.org/packages/de/c8/f473a965186510233129c2ab22e4808a1938afcbe9a287145d17693adf70/django_debug_toolbar-7.1.1-py3-none-any.whl", hash = "sha256:e1385b22fb17bff4dc51cf782679a7926676405e8d013ada1e3d8a6bfc47fdb3", size = 304387, upload-time = "2026-08-14T13:18:45.642Z" },
 ]
 
 [[package]]
@@ -663,7 +663,7 @@ wheels = [
 
 [[package]]
 name = "django-stubs"
-version = "6.0.9"
+version = "6.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "django" },
@@ -671,9 +671,9 @@ dependencies = [
     { name = "types-pyyaml" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/8b/8f/f761e2d1cdbfce2a10fba4b2d170657cbf54592d5b280823f56f896ffcc0/django_stubs-6.0.9.tar.gz", hash = "sha256:ef9928e900a9d226162b579b50c035d08755f6279fd47de9f427de4123c23623", size = 288505, upload-time = "2026-08-07T12:58:01.987Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/65/34/e9f03764b32f56c02168814385ddc6d0e49a7b3e4381e8e3f6f5f34f39ff/django_stubs-6.1.0.tar.gz", hash = "sha256:b6aecc5c738a103135f76ba160a6f75e3b27dcf0200c64d7226018cdbc2340dd", size = 293018, upload-time = "2026-08-12T10:55:28.817Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/08/7a/c3ee425478eafe63a568bf76015524a25e9b889f29694019551209bd4daf/django_stubs-6.0.9-py3-none-any.whl", hash = "sha256:dbee54721197b453708b39bb6b5988b6543eddf3e5073b8772c13bf4652af17d", size = 549598, upload-time = "2026-08-07T12:57:59.9Z" },
+    { url = "https://files.pythonhosted.org/packages/a8/cf/064d7c48642309f3397b17ff14f3159c5225eb9321185a10039c0e846848/django_stubs-6.1.0-py3-none-any.whl", hash = "sha256:63b23ccca2616d464ed7e37d1ce44960315cb3cecab75b23c928467ef125e560", size = 557040, upload-time = "2026-08-12T10:55:26.959Z" },
 ]
 
 [package.optional-dependencies]
@@ -1274,9 +1274,9 @@ requires-dist = [
 dev = [
     { name = "coverage", specifier = "==7.15.4" },
     { name = "django-coverage-plugin", specifier = "==3.2.2" },
-    { name = "django-debug-toolbar", specifier = "==7.1.0" },
+    { name = "django-debug-toolbar", specifier = "==7.1.1" },
     { name = "django-extensions", specifier = "==4.1" },
-    { name = "django-stubs", extras = ["compatible-mypy"], specifier = "==6.0.9" },
+    { name = "django-stubs", extras = ["compatible-mypy"], specifier = "==6.1.0" },
     { name = "django-upgrade", specifier = "==1.31.1" },
     { name = "djlint", specifier = "==1.44.2" },
     { name = "factory-boy", specifier = "==3.3.3" },
